@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SecondPetIntake">
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/vet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vet name"
+        android:gravity="center"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/date2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vet2"
+        android:hint="Date"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/summary2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/date2"
+        android:gravity="center"
+        android:hint="visit summary notes" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebutton"
+        android:text="Save" />
+
+</LinearLayout>

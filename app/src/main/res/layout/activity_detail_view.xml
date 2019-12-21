@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailView">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="14pt"
+        android:gravity="center"
+        android:id="@+id/petadaptorname"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_below="@id/ownerpetname"
+        android:layout_height="wrap_content"
+        android:id="@+id/petadaptorimage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14pt"
+        android:layout_below="@id/petadaptorname"
+        android:id="@+id/ownerpetname"/>
+
+
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:text="Visit History"
+       android:gravity="center"
+       android:id="@+id/header"
+      android:layout_below="@id/petadaptorimage"
+       android:textSize="14pt"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+      />
+
+
+</RelativeLayout>

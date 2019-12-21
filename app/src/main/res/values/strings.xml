@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_pet_intake">PetIntake</string>
+    <string name="title_activity_detail_view">DetailView</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_second_pet_intake">SecondPetIntake</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pet_list">PetList</string>
+    <string name="title_activity_big_display">BigDisplay</string>
+    <string name="title_activity_gallery_view">GalleryView</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PetIntake">
+
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="Pet Information Form"
+        android:textSize="14pt"
+        android:gravity="center"
+      />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:id="@+id/imgview"
+        android:layout_below="@id/test1" />
+
+    <EditText
+        android:id="@+id/petname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgview"
+        android:hint="Pet Name"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/vet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petname"
+        android:hint="Vet name"
+        android:gravity="center"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vet"
+        android:hint="Date"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/date"
+        android:gravity="center"
+        android:hint="visit summary notes" />
+
+    <Button
+        android:id="@+id/imgbutton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/summary"
+        android:hint="Select Image"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitb"
+        android:layout_below="@id/imgbutton"
+        android:text="Submit" />
+
+</LinearLayout>
